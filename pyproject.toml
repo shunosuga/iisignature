@@ -4,4 +4,4 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iisignature"
-dynamic = ["version", "description", "dependencies"]
+dynamic = ["version", "description", "dependencies", "readme", "authors", "classifiers", "keywords", "urls", "license"]
