@@ -17,6 +17,7 @@
 #include<limits>
 #include<sstream>
 #include<string>
+#define PY_SSIZE_T_CLEAN
 #include<Python.h>
 #ifndef IISIGNATURE_NO_NUMPY
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION

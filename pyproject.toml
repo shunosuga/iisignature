@@ -1,3 +1,7 @@
 [build-system]
-requires = ["numpy", "setuptools"]
+requires = ["setuptools>=42", "numpy>=1.17", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "iisignature"
+dynamic = ["version", "description", "dependencies", "readme", "authors", "classifiers", "keywords", "urls", "license"]
